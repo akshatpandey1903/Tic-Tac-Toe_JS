@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.heading {
+    color: beige;
+}
+
 body {
     background-color: #3A2D32;
     text-align: center;
@@ -34,6 +38,7 @@ body {
     font-size: 4vmin;
     font-weight: bold;
     color: #3A2D32;
+    background-color: beige;
 }
 
 #reset-button {
@@ -46,4 +51,31 @@ body {
     border-radius: 1rem;
     font-weight: bold;
     color: #1C1D21;
+    background-color: #FBFBFF;
+}
+
+#new-button {
+    font-family: Arial;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #1C1D21;
+    background-color: #FBFBFF;
+}
+
+#msg {
+    color: #FBFBFF;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 15vmin;
+}
+
+.hide {
+    visibility: hidden;
 }
